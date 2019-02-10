@@ -1,8 +1,13 @@
-export interface Text1 {
+export interface Text {
   description: string;
 }
 
-export interface Text2 {
+export interface TextOneImage {
+  description: string;
+  image: string;
+}
+
+export interface TextTwoImage {
   description: string;
   image1: string;
   image2: string;
